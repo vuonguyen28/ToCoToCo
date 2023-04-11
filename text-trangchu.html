@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Trang web của tôi</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Link tới các file CSS của Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+    <style>
+      /* Điều chỉnh hiển thị của logo và thanh tìm kiếm trên các màn hình khác nhau */
+      @media (max-width: 768px) {
+        .logo {
+          display: none;
+        }
+        .search-bar {
+          text-align: center;
+        }
+        
+      }
+
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.img-logo{
+    width: 150px;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+}
+.search-box{
+    width: 600px ;
+}
+.input-search {
+    width: 500px;
+    border-radius: 30px;
+    border: none;
+    background: #fbfbfb;
+    height: 32px;
+    font-size: 14px;
+    padding: 0 20px 0 30px;
+    background-image: url(https://tocotocotea.com/wp-content/themes/tocotocotea/assets/images/icon-search.svg);
+    background-repeat: no-repeat;
+    background-position: 8px 10px;
+    background-size: 14px 14px;
+}
+.button-DN{
+    padding: 6px 15px;
+    background: #d8b979;
+    border: 2px solid #d8b979;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: normal;
+    border-radius: 25px;
+    white-space: nowrap;
+}
+.button-DN:hover{
+    color: #d8b979;
+    background-color: #ffffff;
+    font-weight: bold;
+    border: 2px solid #d8b979;
+
+}
+
+    </style>
+  </head>
+  <body>
+  
+    <!-- Thanh navbar của Bootstrap -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+
+         <!-- Logo -->
+         <a class="navbar-brand logo" href="#" ><img class="img-logo" src="./img/Logo-ngang-01.png"></a>
+        
+        <!-- Thanh tìm kiếm -->
+        <div class="mx-auto search-bar">
+            <form class="form-inline">
+            <input class="form-control mr-sm-2 input-search" type="text" placeholder="Tìm kiếm sản phẩm..." value="" fdprocessedid="oxzpg">
+
+            </form>
+          </div>
+          
+        <!-- Nút đăng nhập -->
+        <button class="button-DN" type="submit">Đăng nhập</button>
+      </div>
+    </nav>
+    
+    <!-- Link tới các file JavaScript của Bootstrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+  </body>
+</html>
